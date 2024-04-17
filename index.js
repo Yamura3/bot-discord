@@ -14,12 +14,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to Hikam: http://localhost:${port}`);
-  console.log(`🔗 Powered By KamDev`);
+  console.log(`🔗 Listening to Yamura: http://localhost:${port}`);
+  console.log(`🔗 Powered By Yamura`);
 });
 
 
-const statusMessages = ["Listening to Spotify","Watching YouTube", "Playing https://discord.com/invite/NfSQgKkV3Y", "Development by Hikam."];
+const statusMessages = ["Listening to Smartschool++","Watching Smartschool get better with the extension", "Playing https://discord.gg/BX5RwWBR7s", "Development by Yamura."];
 
 
 let currentIndex = 0;
